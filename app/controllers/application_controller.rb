@@ -12,7 +12,7 @@ class ApplicationController < ActionController::Base
   end
 
   def must_be_user
-    return if current_user.role.zero?
+    return if current_user.user?
 
     redirect_back(fallback_location: admin_root_path)
   end

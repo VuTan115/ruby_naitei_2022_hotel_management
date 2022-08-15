@@ -1,6 +1,7 @@
 vi:
   users:
     require_login: "Xin hãy đăng nhập"
+    require_login: "Xin hãy đăng nhập"
     new:
       welcome_hotel: "Chào mừng đến với khách sạn của chúng tôi"
       sign_up: "Đăng ký"
@@ -26,7 +27,50 @@ vi:
         password: "Mật khẩu"
         btn_submit: "Đăng nhập"
         remember: "Ghi nhớ mật khẩu"
+    create:
+      login_success: "Chào mừng đến với khách sạn của chúng tôi"
+      login_fail: "Email hoặc mật khẩu đang bị sai"
   shared:
     error_messages:
       intro: "Biểu mẫu có"
       error: "lỗi"
+  static_pages:
+    home:
+      heading: "Chào mừng đến với khách sạn của chúng tôi"
+      subheading: "Khách sạn lữ hành nổi tiếng nhất thế giới"
+      hero_title: "Khách sạn lữ hành"
+      hero_subtitle: "Dưới đây là các trang web đặt phòng khách sạn tốt nhất, bao gồm các gợi ý về du lịch quốc tế và tìm phòng khách sạn giá rẻ."
+      btn_discover: "Khám phá ngay"
+      btn_book: "Đặt phòng"
+      btn_signup: "Đăng ký"
+      btn_login: "Đăng nhập"
+      check_in_form: "Ngày nhận phòng"
+      check_out_form: "Ngày trả phòng"
+      guest_form: "Số khách"
+      guest_opt: "khách"
+      rooms_count_form: "Số phòng"
+      rooms_opt: "Phòng"
+      submit_btn: "Tìm kiếm phòng trống"
+
+  layouts:
+    application:
+      home: "Trang chủ"
+      room: "Phòng"
+      about: "Giới thiệu"
+      blog: "Bài viết"
+      contact: "Liên hệ"
+      booking_btn: "Đặt phòng ngay"
+      language: "VN"
+      login: "Đăng nhập"
+      signup: "Đăng ký"
+      logout: "Đăng xuất"
+
+    footer:
+      title: "Chúng tôi truyền cảm hứng và tiếp cận hàng triệu khách du lịch trên 90 trang web địa phương"
+      contact: "Liên hệ với chúng tôi"
+      about: "Về chúng tôi"
+      help: "Trợ giúp"
+      policy: "Chính sách"
+      terms: "Điều khoản"
+      privacy: "Chính sách bảo mật"
+      location: "Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội, 144 Xuân Thủy, Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Việt Nam"
