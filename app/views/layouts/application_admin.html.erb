@@ -23,19 +23,9 @@
         <li class="nav-item">
           <img src="https://avatars.githubusercontent.com/u/29994885?s=64&v=4" class="direct-chat-img">
         </li>
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown button
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </div>
         <div class="language-option">
           <span>
-            <%= t(".language")%>
+            <%= t(".language") %>
             <i class="fa fa-angle-down"></i>
           </span>
           <div class="">
@@ -69,7 +59,7 @@
             <li class="nav-item menu-open">
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <%= link_to t(".rooms"), admin_rooms_path, :class=>"nav-link active" %>
+                  <%= link_to t(".rooms"), admin_room_types_path, :class=>"nav-link active" %>
                 </li>
                 <li class="nav-item">
                   <%= link_to "Bookings", admin_bookings_path, :class=>"nav-link active" %>
@@ -85,6 +75,8 @@
       </div>
       <!-- /.sidebar -->
     </aside>
-    <%= yield %>
+    <div style="margin-left:var(--side-bar-width)">
+      <%= yield %>
+    </div>
   </body>
 </html>

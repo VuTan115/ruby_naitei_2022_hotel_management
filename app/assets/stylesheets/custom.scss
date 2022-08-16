@@ -77,3 +77,18 @@ select {
 .menu-item .nav-menu .mainmenu li:hover .dropdown {
   transition: none !important;
 }
+.rooms_table_image {
+  height: 100px;
+}
+.delete-icon,
+.edit-icon {
+  cursor: pointer;
+  font-size: 20px !important;
+}
+.delete-icon {
+  color: red;
+  margin-right: 20px;
+}
+thead > tr > th {
+  white-space: nowrap;
+}
